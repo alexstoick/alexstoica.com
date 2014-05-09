@@ -17,6 +17,12 @@ body {
   padding: 20px;
 }
 
+@font-face
+{
+font-family: "Canter";
+src: url("../fonts/Canter.otf");
+}
+
 .jumbotron .lead {
   font-family: 'Roboto', 'sans-serif';
 	font-size: 24px;
@@ -25,7 +31,6 @@ body {
 }
 
 .jumbotron .lead .special {
-  /*font-family: 'Canter';*/
   font-weight:100;
   font-size: 27px;
   color: #F6CB51;
@@ -87,6 +92,7 @@ p {
 
 .link-no-style {
   font-family: 'Canter' ;
+  font-weight: 100;
   font-size: 60px;
 	text-decoration: none;
   color: #e67e22;
@@ -94,12 +100,4 @@ p {
 
 .link-no-style:hover {
   color:#F6CB51;
-}
-
-li {
-  list-style-type: none;
-}
-
-a:hover{
-  outline-style: none;
 }
