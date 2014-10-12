@@ -37,7 +37,7 @@
 
       <div class="jumbotron">
   				<img class="me" src="img/me.png"></img>
-          <p class="lead">I am a first year student at <span class="special">King's College London</span>. I'm super passionate about <span class="special">Computer Science</span> and an avid <span class="special">runner</span>. </p>
+          <p class="lead">I am a second year student at <span class="special">King's College London</span>. I'm super passionate about <span class="special">Computer Science</span> and an avid <span class="special">runner</span>. </p>
   				<p class="lead">I work on amazing stuff, below are a couple of my latest projects. <br></p>
   				<a class="fc-webicon github large" onClick="_gaq.push(['_trackEvent', 'click' , 'Clicked Github']);" href="https://github.com/alexstoick">Github</a>
   				<a class="fc-webicon mail large" onClick="_gaq.push(['_trackEvent', 'click', 'Clicked Email']);" href="mailto:alex.stoicajr@gmail.com">Mail</a>
