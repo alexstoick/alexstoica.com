@@ -1,0 +1,103 @@
+body {
+
+}
+
+.container {
+	font-family:'Roboto',"Helvetica Neue",Helvetica,Arial,sans-serif;
+	max-width:1170px;
+	margin: 0 auto;
+	font-size: 14px;
+	line-height: 1.42857143;
+}
+
+.jumbotron {
+	margin: 60px 0;
+	text-align: center;
+  overflow: auto;
+  padding: 20px;
+}
+
+@font-face
+{
+font-family: "Canter";
+src: url("../fonts/Canter.otf");
+}
+
+.jumbotron .lead {
+  font-family: 'Roboto', 'sans-serif';
+	font-size: 24px;
+	line-height: 1.25;
+  color:#F5FFCC ;
+}
+
+.jumbotron .lead .special {
+  font-weight:100;
+  font-size: 27px;
+  color: #F6CB51;
+}
+
+.jumbotron .left {
+  width: 80%;
+  float: left;
+}
+
+.jumbotron .right {
+  float:left;
+  width:20%;
+}
+
+.me {
+	border-radius: 50%;
+	width: 140px;
+	height: 140px;
+}
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+  clear: both;
+}
+
+.col-lg-4 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+p {
+  font-weight: 100;
+  color:#2ecc71;
+}
+
+.h2 {
+  font-weight: normal;
+}
+.col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+@media (min-width: 1200px) {
+	.container {
+		width: 1170px;
+	}
+  .col-lg-4 {
+  	float: left;
+    width: 30%;
+  }
+}
+
+.link-no-style {
+  font-family: 'Canter' ;
+  font-weight: 100;
+  font-size: 60px;
+	text-decoration: none;
+  color: #e67e22;
+}
+
+.link-no-style:hover {
+  color:#F6CB51;
+}
