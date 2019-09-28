@@ -1,7 +1,0 @@
-I"³<h2 id="dsa">Dsa</h2>
-
-<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">x</span><span class="p">.</span><span class="nf">values</span> <span class="n">each</span> <span class="k">do</span> <span class="o">|</span><span class="n">q</span><span class="o">|</span>
-  <span class="nb">puts</span> <span class="n">q</span>
-<span class="k">end</span>
-</code></pre></div></div>
-:ET
