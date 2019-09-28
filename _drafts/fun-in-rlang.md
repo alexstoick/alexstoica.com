@@ -3,6 +3,11 @@ layout: post
 title: Fun in Rlang
 ---
 
+Understanding why "100000" and 100000 are not equal... and a deep dive into the
+`factor` logic of Rlang.
+
+<!--more-->
+
 ## Introduction
 
 Why was I even working with `Rlang`? That's a good question! The data scientists that I worked with were all quite familiar with the language and were quite happy with the performance of a particular ML algorithm implementation in `Rlang`.
@@ -27,7 +32,7 @@ Transforming `dow` into a factor we would have to do the following:
 df$dow_factor <- factor(df$dow, levels=unique(df$dow))
 ```
 
-This works fine for `character` or `string` data types, however, when you want to transform `zone_id` into a factor, well... 
+This works fine for `character` or `string` data types, however, when you want to transform `zone_id` into a factor, well...
 
 ## Let the fun begin!
 
@@ -63,6 +68,6 @@ Code to exemplify the issue with `match`:
 [1] FALSE
 ```
 
-First two comparisons is between `character` and `numeric` - and no match is found, whilst the 3rd comparison is between `character` and `integer` and a match is found. I have not tested this extensively but I found that all multiples of **100k** are facing this problem... 
+First two comparisons is between `character` and `numeric` - and no match is found, whilst the 3rd comparison is between `character` and `integer` and a match is found. I have not tested this extensively but I found that all multiples of **100k** are facing this problem...
 
 I'm sure someone braver than me will dive deeper and understand this problem!
