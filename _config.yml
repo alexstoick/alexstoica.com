@@ -33,7 +33,7 @@ theme: minima
 plugins:
   - jekyll-feed
 
-permalink: /:title
+permalink: /blog/:title
 
 # Exclude from processing.
 # The following items will not be processed, by default.

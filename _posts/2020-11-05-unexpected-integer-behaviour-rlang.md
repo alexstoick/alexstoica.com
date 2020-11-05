@@ -1,16 +1,16 @@
 ---
 layout: post
-title: Fun in Rlang
+title: Unexpected Integer behaviour in RLang
 ---
 
 Understanding why "100000" and 100000 are not equal... and a deep dive into the
-`factor` logic of Rlang.
+`factor` logic of RLang.
 
 <!--more-->
 
 ## Introduction
 
-Why was I even working with `Rlang`? That's a good question! The data scientists that I worked with were all quite familiar with the language and were quite happy with the performance of a particular ML algorithm implementation in `Rlang`.
+Why was I even working with `RLang`? That's a good question! The data scientists that I worked with were all quite familiar with the language and were quite happy with the performance of a particular ML algorithm implementation in `RLang`.
 
 ## Backstory
 
@@ -55,7 +55,7 @@ This means we were now in a position where we were calling `match(<character>, <
 
 ## Lesson learnt
 
-**Dont** use `factor(<type>, levels=<other_type>)` or `match(<type>, <other_type>)` and strive to use `factor(<character>, levels=<character>)` or R somehow find a way to change your data types into **character**, but not do this consistently and you'll end up in a similar debugging   nightmare.
+**Do not** use `factor(<type>, levels=<other_type>)` or `match(<type>, <other_type>)` and strive to use `factor(<character>, levels=<character>)` or R somehow find a way to change your data types into **character**, but not do this consistently and you'll end up in a similar debugging   nightmare.
 
 Code to exemplify the issue with `match`:
 
