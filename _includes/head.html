@@ -6,7 +6,5 @@
   <link href='https://fonts.googleapis.com/css?family=Roboto:300,100,100italic,100bold' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   {%- feed_meta -%}
-  {%- if jekyll.environment == 'production' and site.google_analytics -%}
-    {%- include google-analytics.html -%}
-  {%- endif -%}
+  {%- include google-analytics.html -%}
 </head>
