@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Singletons and instance varibles
+title: Singletons and instance varibles in Ruby
 ---
 
 Understanding how `class << self` works and its interaction with the `@instance_var`
